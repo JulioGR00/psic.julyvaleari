@@ -1,0 +1,572 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body {
+
+    .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+    
+    background-color: rgba(255, 182, 193, 0.408);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(images/Consultorio.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex; 
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000; 
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(107, 30, 76);
+    font-weight: 800; 
+    text-transform: uppercase;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: rgb(107, 30, 76);
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: #a21994;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    margin-bottom: 45px; 
+}
+
+.header-txt h1, span, h3 {
+    font-size: 110px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(107, 30, 76); 
+    margin-bottom: 15px;
+}
+
+.header-txt span {
+    font-size: 25px;
+}
+
+.header-txt p {
+    color: #fefefe;
+    padding: 0 250px;
+    margin: 25px 0;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 25px;
+    background-color: #e1add9;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 25px 0;
+    border: 0;
+}
+
+.btn-1:hover {
+    background-color: #941b76;
+}
+  
+.header-dir {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dir h3 {
+    font-size: 40px;
+}
+
+.dir p {
+    font-size: 20px;
+    color: #fefefe;
+    text-transform: uppercase;
+}
+
+.welcome {
+    display: flex;
+}
+
+/*Curriculum de July*/
+
+.welcome-1 {
+    background-image: url(images/July\ 1.jpeg);
+    width: 50%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.welcome-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: rgba(255, 182, 193, 0.408);
+}
+
+h2 {
+    font-size: 90px;
+    line-height: 100px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 30px;
+    color: #000000;
+    margin: 25px 0;
+}
+
+.b1 {
+    color: rgb(153, 8, 95);
+}
+
+/*Consultas Virtual y Presencial*/
+
+.services {
+    padding: 10px 10px;
+    text-align: center;
+}
+
+.services-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-txt p {
+    padding: 20px 150px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.services-1 {
+    background-color: rgba(255, 182, 193, 0.408);
+    padding: 30px 15px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.services-1 img { 
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    font-size: 45px;
+    color: #FFFFFF;
+}
+
+.services-1 a {
+    color: rgb(255, 241, 250);
+    font-size: 35px;
+}
+
+
+/*TERAPIA COGNITIVO CONDUCTUAL*/
+
+.tcc {
+    display: flex;
+}
+
+.tcc-1 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: rgba(255, 182, 193, 0.408);
+}
+
+.tcc-2 {
+    background-image: url(images/Cognitivo\ Conductual.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+/*¿POR QUÉ IR A TERAPIA?*/
+
+.razones {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.razones-txt {
+    padding: 20px 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.razones-txt p {
+    padding: 20px 150px;
+}
+
+.razones-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 45px 0;
+}
+
+.razones-1 {
+    background-color: rgba(255, 182, 193, 0.408);
+    padding: 30px 15px;
+    margin: 0 10px;
+    border-radius: 15px;
+}
+
+.razones-1 h3 {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+.razones-1 a {
+    color: rgba(255, 182, 193, 0.408);
+    font-size: 20px;
+}
+
+/*EN QUE TE PUEDO AYUDAR*/
+
+.help {
+    display: flex;
+}
+
+.help-1 {
+    background-image: url(images/July\ 2.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.help-2 {
+    width: 50%;
+    padding: 150px 250px 150px 100px;
+    background-color: rgba(255, 182, 193, 0.408);
+}
+
+table {
+    text-transform: uppercase;
+    margin-bottom: 200px;
+    margin: 25px 0;
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+tr {
+    display: flex;
+    justify-content: space-between;
+}
+
+th {
+    color: #000000;
+    padding-bottom: 10px;
+}
+
+.footer-bg {
+    background-color: rgba(255, 228, 232, 0.712);
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.campo-1 {
+    margin-bottom: 15px;
+}
+
+.campo {
+    margin: 5px;
+    padding: 20px 15px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 1px solid #b990b2;
+    outline: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+textarea {
+    width: 520px !important;
+}
+
+.footer-txt {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(255, 228, 232, 0.712);
+}
+
+.footer {
+    background-color: rgba(255, 228, 232, 0.712);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer h2 {
+    margin-bottom: 10px;
+    font-size: 100px;
+}
+
+.footer p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+.footer a {
+    color: #ac19c3;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer .icon {
+    margin-right: 10px;
+}
+
+.footer .social-media {
+    margin-top: 20px;
+}
+
+.footer .social-media a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.footer .social-media a:hover {
+    color: #1DA1F2;
+}
+
+@media (max-width: 991px) {
+
+    .menu {
+        padding: 20px;
+    }
+  
+    .menu label {
+        display: initial;
+    }
+  
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right:0;
+        background-color:  #f9ddf4;
+        display: none;
+    }
+
+    .menu.navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+
+    .header-txt h1, span, h3 {
+        font-size: 50px;
+        line-height: 60px;
+    }
+  
+    .header-txt p {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+  
+    .btn-1 {
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+  
+    .header-dir {
+        flex-direction: column;
+    }
+  
+    .dir p {
+        font-size: 18px;
+    }
+  
+    .welcome {
+        flex-direction: column;
+    }
+  
+    .welcome-1 {
+        width: 100%;
+        padding: 400px 150px;
+    }
+
+    .welcome-2 {
+        width: 100%;
+        padding: 50px 20px;
+    }
+  
+    h2 {
+        font-size: 50px;
+    }
+  
+    .services-txt p, .razones-txt p {
+        padding: 20px;
+    }
+  
+    .services-group, .razones-group {
+        flex-direction: column;
+    }
+  
+    .services-1, .razones-1 {
+        margin: 20px 0;
+    }
+  
+    .tcc{
+        flex-direction: column;
+    }
+
+    .tcc-1{
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+    .tcc-2{
+        width: 100%;
+        padding: 300px 5px;
+    }
+
+    .help {
+        flex-direction: column;
+    }
+  
+    .help-1{
+        width: 100%;
+        padding: 300px 5px;
+    }
+
+    .help-2{
+        width: 100%;
+        padding: 30px 20px;
+    }
+
+    .razones{
+        flex-direction: column;
+    }
+  
+    table {
+        font-size: 14px;
+    }
+  
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+
+
+
